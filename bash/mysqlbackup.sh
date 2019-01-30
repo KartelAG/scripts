@@ -7,13 +7,15 @@ MYSQL="$(which mysql)"
 MYSQLDUMP="$(which mysqldump)"
 
 ### Mysql ### 
-MUSER="root"
-MPASS="rfrlbkfu"
-MHOST="localhost"
+MUSER=
+MPASS=
+MHOST=
 
 ### FTP parameters ###
-FTPS="u139269.your-storagebox.de"
-FTPD="server3/mysql"
+### FTP server name ###
+FTPS=
+### FTP remote dir ###
+FTPD=
 
 ## Today + hour in 24h format ###
 NOW=$(date +%Y%m%d) 
